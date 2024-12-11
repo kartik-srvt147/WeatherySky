@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bg-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .bg-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.title h1 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.title p {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 0.9em;
+  margin-left: 38px;
+  font-family: cursive;
+}
+
+.container {
+  width: 90%;
+  max-width: 250px;
+  /* background: white; */
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+  padding-block: 5px;
+  /* text-align: center; */
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: #edefef;
+  padding: 10px 15px;
+  height: 42px;
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.fa-search {
+  color: #ffffff;
+  transform: scale(1.6);
+}
+
+.weather {
+  /* background: gray; */
+  margin-top: 30px;
+  display: none;
+  /* text-align: center; */
+}
+.weather h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+.weather h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-left: 8px;
+}
+
+.main-info {
+  text-align: center;
+}
+.additional-info {
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+.info-humid,
+.info-wind {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.info-humid img {
+  width: 42px;
+  margin-right: 14px;
+}
+
+.info-wind img {
+  width: 42px;
+  margin-right: 14px;
+}
+
+.humidity,
+.wind {
+  font-size: 20px;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #ff0000;
+  display: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.footer h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  color: #ffffff;
+}
+
+.footer p {
+  margin: 5px 0 10px;
+  font-size: 14px;
+  color: #555;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.footer a i {
+  margin-right: 5px;
+}
+
+.footer a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.footer a:last-child:hover {
+  color: #d14836; /* Email red */
+}

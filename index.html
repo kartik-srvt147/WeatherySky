@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherySky: Weather Checker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <video autoplay loop muted play-inline class="bg-video">
+      <source src="assets/WeatherySky_earthbg.mp4" type="video/mp4" />
+    </video>
+
+    <div class="title">
+      <h1>WeatherySky</h1>
+      <p>Weather changes, so can you! but for now you can check the weather!</p>
+    </div>
+
+    <div class="container">
+      <!-- search bar area -->
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter the city name"
+          spellcheck="false"
+        />
+        <button><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="error">
+        <p>
+          oops! looks like you have written an invalid city name! try again!
+        </p>
+      </div>
+      <!-- information area -->
+      <div class="weather">
+        <h1 class="temperature">0 °C</h1>
+        <h2 class="city-name">Unknown</h2>
+        <div class="additional-info">
+          <div class="info-humid">
+            <img src="assets/humidity.png" />
+            <div>
+              <p class="humidity">0%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="info-wind">
+            <img src="assets/wind.png" />
+            <div>
+              <p class="wind">0 km/ph</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h1>Made with love and learnings by: Kartikeya Srivastava</h1>
+      <p>Reach me out:</p>
+      <a href="https://www.linkedin.com/in/kartikeya20/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>LinkedIn
+      </a>
+      <a href="mailto:kartik.srvt@gmail.com">
+        <i class="fa-solid fa-envelope"></i>Email
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
