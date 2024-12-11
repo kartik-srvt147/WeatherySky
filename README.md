@@ -16,10 +16,10 @@ WeatherySky is a simple weather checker application where users can get the curr
 ## Screenshots
 
 ### Valid City Input
-![Valid City](./Screenshot%202024-12-11%20150953.png)
+![Valid City](assets/validInputCity.png)
 
 ### Invalid City Input
-![Invalid City](./Screenshot%202024-12-11%20150923.png)
+![Invalid City](assets/invalidInputCity.png)
 
 ## How It Works
 
