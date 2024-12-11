@@ -62,7 +62,7 @@ This project uses the OpenWeatherMap API to fetch weather data. To set up your A
 
 ## Credits
 
-This project was created with love and learning by [Kartikeya Srivastava](https://www.linkedin.com/in/kartikeya-srivastava/).
+This project was created with love and learning by [Kartikeya Srivastava](https://www.linkedin.com/in/kartikeya20/).
 
 ## Contact
 
