@@ -69,7 +69,7 @@ This project was created with love and learning by [Kartikeya Srivastava](https:
 Feel free to reach out:
 
 - **LinkedIn**: [Kartikeya Srivastava](https://www.linkedin.com/in/kartikeya20/)
-- **Email**: [kartikeyasrivastava@example.com](mailto:kartik.srvt@gmail.com)
+- **Email**: [kartik.srvt@gmail.com](mailto:kartik.srvt@gmail.com)
 
 ---
 
