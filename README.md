@@ -1,6 +1,6 @@
 # WeatherySky
 
-WeatherySky is a simple weather checker application where users can get the current weather details of any city around the globe. This project is built using **HTML**, **CSS**, and **JavaScript** and utilizes the [OpenWeatherMap API](https://openweathermap.org/api) for fetching real-time weather data.
+WeatherySky is my first Javascript project. It is a simple weather checker application where users can get the current weather details of any city around the globe. This project is built using **HTML**, **CSS**, and **JavaScript** and utilizes the [OpenWeatherMap API](https://openweathermap.org/api) for fetching real-time weather data.
 
 ## Features
 
